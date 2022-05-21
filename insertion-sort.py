@@ -1,5 +1,6 @@
 ### Insertion Sort
-
+## The loop invariant is that ls[:i-1] has the same numbers as
+## it has in the initial ls, except that they are now sorted!
 ls = [31, 21, 41, 59, 26, 58]
 
 print("initial list:", ls)
